@@ -1,0 +1,5 @@
+<h1>JSON</h1>
+<textarea [(ngModel)]=jsonInput (keyup)="onChange($event.target.value)"></textarea>
+<!--pre [innerHTML]="myObj | prettyjson"></pre-->
+
+<app-formatter [data]="myObj"></app-formatter>
